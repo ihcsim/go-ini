@@ -4,7 +4,7 @@ import "strings"
 
 // ParseINI converts s into a map of sections and property/value pairs.
 // It assumes s is in proper INI format.
-func ParseINI(s string) map[string]map[string]string {
+func Parse(s string) map[string]map[string]string {
 	result := make(map[string]map[string]string)
 
 	var currentSection string

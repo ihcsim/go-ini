@@ -2,7 +2,7 @@ package ini
 
 import "testing"
 
-func TestParseINI(t *testing.T) {
+func TestParse(t *testing.T) {
 	var tests = []struct {
 		input    string
 		expected map[string]map[string]string
@@ -85,7 +85,7 @@ var4=val4 ; fourth comment`,
 	}
 
 	for _, test := range tests {
-		actual := ParseINI(test.input)
+		actual := Parse(test.input)
 		for section, expectedBody := range test.expected {
 			actualBody, exist := actual[section]
 			if !exist {
