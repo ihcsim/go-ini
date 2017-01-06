@@ -1,8 +1,11 @@
 # go-ini
+
+[![Codeship Status for ihcsim/go-ini](https://app.codeship.com/projects/c1681cd0-b668-0134-87c2-7ea8c0f9c13a/status?branch=master)](https://app.codeship.com/projects/194355)
+
 An INI config parser.
 
 ## Introduction
-The INI file format is an informal standard for configuration files for some platforms or software. INI files are simple text files with a basic structure composed of sections, properties, and values. 
+The INI file format is an informal standard for configuration files for some platforms or software. INI files are simple text files with a basic structure composed of sections, properties, and values.
 
 Although made popular by Windows, INI files can be used on any system thanks to their flexibility. They allow a program to store configuration data, which can then be easily parsed and changed. Two notable systems that use the INI format are Samba and Trac. Linux and Unix systems also use a similar file format for system configuration. In addition, platform-agnostic software may use this file format for configuration. It is human-readable and simple to parse, so it is a usable format for configuration files that do not require much greater complexity.
 
